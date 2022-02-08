@@ -56,4 +56,24 @@
     position: relative;
   }
 
- 
+  h2{
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 100px);
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  img{
+    top: 35%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
